@@ -34,6 +34,13 @@ $ docker build -t webserver .
 ```
 $ docker run --rm -d -p 8080:80 --name web webserver
 ```
+
+動作を停止
+
+```
+$ docker stop web
+```
+
 イメージをDockerHubにアップロード
 
 ```
