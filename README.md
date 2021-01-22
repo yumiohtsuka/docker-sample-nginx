@@ -2,7 +2,7 @@
 
 A sample nginx container for training
 
-Cloneする前に以下のコマンドでウェブサーバーを起動してみる
+以下のコマンドでウェブサーバーを起動してみる(Dockerの動作確認)
 
 ```
 $ docker run --rm -d -p 8080:80 --name web nginx
@@ -16,10 +16,16 @@ $ docker run --rm -d -p 8080:80 --name web nginx
 $ docker stop web
 ```
 
-このレポジトリーをClone
+このレポジトリーをFork
 
 ```
 $ git clone https://github.com/osonoi/docker-sample-nginx.git
+```
+
+このレポジトリーをClone
+
+```
+$ git clone https://github.com/(ご自分のアカウント名)/docker-sample-nginx.git
 ```
 
 Dockerfileを参照、index.htmlを編集
