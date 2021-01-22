@@ -5,7 +5,7 @@ A sample nginx container for training
 Cloneする前に以下のコマンドでウェブサーバーを起動してみる
 
 ```
-$ docker run -it --rm -d -p 8080:80 --name web nginx
+$ docker run --rm -d -p 8080:80 --name web nginx
 ```
 
 ブラウザーで　http://localhost:8080 にアクセスして動作確認
