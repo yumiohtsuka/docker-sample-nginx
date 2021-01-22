@@ -31,7 +31,36 @@ https://github.com/osonoi/docker-sample-nginx.git
 $ git clone https://github.com/(ご自分のアカウント名)/docker-sample-nginx.git
 ```
 
-Dockerfileを参照、index.htmlを編集
+Dockerfile, indexを参照
+イメージを作成
+
+```
+$ docker build -t webserver .
+```
+
+イメージを起動
+
+```
+$ docker run --rm -d -p 8080:80 --name web webserver
+```
+
+動作を停止
+
+```
+$ docker stop web
+```
+
+index.htmlを編集
+
+変更をgithubに反映
+
+```
+$ git init
+$ git add index.html
+$ git commit -m "コメント変更"
+$ git push origin main
+```
+
 イメージを作成
 
 ```
