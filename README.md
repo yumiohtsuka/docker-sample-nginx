@@ -22,6 +22,7 @@ $ docker stop web
 $ git clone https://github.com/osonoi/docker-sample-nginx.git
 ```
 
+Dockerfileを参照、index.htmlを編集
 イメージを作成
 
 ```
@@ -31,7 +32,7 @@ $ docker build -t webserver .
 イメージを起動
 
 ```
-$ docker run -it --rm -d -p 8080:80 --name web webserver
+$ docker run --rm -d -p 8080:80 --name web webserver
 ```
 イメージをDockerHubにアップロード
 
