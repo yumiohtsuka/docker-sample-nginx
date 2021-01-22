@@ -16,13 +16,13 @@ $ docker run --rm -d -p 8080:80 --name web nginx
 $ docker stop web
 ```
 
-このレポジトリーをFork
+Githubびログイン後以下のアドレスにアクセス、レポジトリーをFork
 参考：　https://github.com/IBMDeveloperTokyo/DojoBasicLab/tree/master/Lab3_GitHub/Lab3-1_GitHub
 
 のフォーク
 
 ```
-$ git clone https://github.com/osonoi/docker-sample-nginx.git
+https://github.com/osonoi/docker-sample-nginx.git
 ```
 
 このレポジトリーをClone
