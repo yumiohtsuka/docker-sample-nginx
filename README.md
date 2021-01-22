@@ -18,11 +18,12 @@ $ docker stop web
 
 Githubびログイン後以下のアドレスにアクセス、レポジトリーをFork
 
-参考：　https://github.com/IBMDeveloperTokyo/DojoBasicLab/tree/master/Lab3_GitHub/Lab3-1_GitHub
 
 ```
 https://github.com/osonoi/docker-sample-nginx.git
 ```
+
+参考：　https://github.com/IBMDeveloperTokyo/DojoBasicLab/tree/master/Lab3_GitHub/Lab3-1_GitHub
 
 このレポジトリーをClone
 
