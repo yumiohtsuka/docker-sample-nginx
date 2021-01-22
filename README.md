@@ -17,6 +17,7 @@ $ docker stop web
 ```
 
 このレポジトリーをFork
+参考：　https://github.com/IBMDeveloperTokyo/DojoBasicLab/tree/master/Lab3_GitHub/Lab3-1_GitHub　のフォーク
 
 ```
 $ git clone https://github.com/osonoi/docker-sample-nginx.git
