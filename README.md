@@ -1,5 +1,7 @@
 # docker-sample-nginx
 
+<kbd><img src="docker.png" width="400px"></kbd>
+
 A sample nginx container for training
 
 以下のコマンドでウェブサーバーを起動してみる(Dockerの動作確認)
