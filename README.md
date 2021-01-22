@@ -54,7 +54,7 @@ dockerHubでイメージを確認
 
 https://hub.docker.com/
 
-DockerHubのイメージで起動
+DockerHubのイメージで起動(できれば他のメンバーのアカウントのイメージを使って）
 
 ```
 docker run --rm -d -p 8080:80 --name web yosonoi/webserver
