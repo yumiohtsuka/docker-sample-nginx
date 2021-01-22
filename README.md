@@ -46,7 +46,7 @@ $ docker stop web
 ```
 $ docker login
 $ docker tag webserver yosonoi/webserver
-$ docker push webserver:latest
+$ docker push yosonoi/webserver:latest
 ** yosonoiのところはご自分のアカウント名にしてください。
 ```
 
