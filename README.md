@@ -1,6 +1,6 @@
 # docker-sample-nginx
 
-<kbd><img src="docker.png" width="400px"></kbd>
+<kbd><img src="docker.png" width="800px"></kbd>
 
 A sample nginx container for training
 
