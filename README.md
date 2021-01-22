@@ -57,6 +57,6 @@ https://hub.docker.com/
 DockerHubのイメージで起動
 
 ```
-docker run -it --rm -d -p 8080:80 --name web yosonoi/webserver
+docker run --rm -d -p 8080:80 --name web yosonoi/webserver
 ```
 
