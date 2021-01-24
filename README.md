@@ -54,14 +54,6 @@ $ docker stop web
 
 index.htmlを編集
 
-変更をgithubに反映
-
-```
-$ git init
-$ git add index.html
-$ git commit -m "コメント変更"
-$ git push origin main
-```
 
 イメージを作成
 
@@ -75,6 +67,16 @@ $ docker build -t webserver .
 $ docker run --rm -d -p 8080:80 --name web webserver
 ```
 
+変更をgithubに反映
+
+```
+$ git init
+$ git add index.html
+$ git commit -m "コメント変更"
+$ git push origin main
+```
+
+
 動作を停止
 
 ```
@@ -85,9 +87,9 @@ $ docker stop web
 
 ```
 $ docker login
-$ docker tag webserver yosonoi/webserver
-$ docker push yosonoi/webserver:latest
-** yosonoiのところはご自分のアカウント名にしてください。
+$ docker tag webserver (ご自分のアカウント名)/webserver
+$ docker push (ご自分のアカウント名)/webserver:latest
+
 ```
 
 dockerHubでイメージを確認
@@ -97,6 +99,6 @@ https://hub.docker.com/
 DockerHubのイメージで起動(できれば他のメンバーのアカウントのイメージを使って）
 
 ```
-docker run --rm -d -p 8080:80 --name web yosonoi/webserver
+docker run --rm -d -p 8080:80 --name web (誰かののアカウント名)/webserver
 ```
 
