@@ -4,6 +4,7 @@
 
 A sample nginx container for training
 
+##　事前準備
 以下のソフト、アカウントの準備を事前にしてください。
 -Dockerのインストール、
 　https://www.docker.com/products/docker-desktop
@@ -15,6 +16,8 @@ A sample nginx container for training
 -Githubのアカウント作成(Sign Up)
  https://github.com/
 
+
+## 研修
 
 以下のコマンドでウェブサーバーを起動してみる(Dockerの動作確認)
 
