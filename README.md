@@ -4,7 +4,7 @@
 
 A sample nginx container for training
 
-##　事前準備
+## 事前準備
 
 以下のソフト、アカウントの準備を事前にしてください。
 -Dockerのインストール、
