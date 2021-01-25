@@ -4,6 +4,18 @@
 
 A sample nginx container for training
 
+以下のソフト、アカウントの準備を事前にしてください。
+-Dockerのインストール、
+　https://www.docker.com/products/docker-desktop
+-Docker Hubのアカウント作成(Sign Up)
+　https://hub.docker.com/
+-Gitのインストール
+  1. Homebrewのインストール　　https://brew.sh/index_ja
+  2. HomeBrewを使ってgitをインストール  https://git-scm.com/download/mac
+-Githubのアカウント作成(Sign Up)
+ https://github.com/
+
+
 以下のコマンドでウェブサーバーを起動してみる(Dockerの動作確認)
 
 ```
