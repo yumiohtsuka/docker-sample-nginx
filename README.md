@@ -7,15 +7,26 @@ A sample nginx container for training
 ## 事前準備
 
 以下のソフト、アカウントの準備を事前にしてください。
+
 -Dockerのインストール、
-　https://www.docker.com/products/docker-desktop
+
+https://www.docker.com/products/docker-desktop
+
+(Windows 10の場合、BIOSでIntel VT, 仮想化の有効化、Linuxカーネルのダウンロードが必要な場合があります）
+
 -Docker Hubのアカウント作成(Sign Up)
-　https://hub.docker.com/
+
+https://hub.docker.com/
+
 -Gitのインストール
-  1. Homebrewのインストール　　https://brew.sh/index_ja
-  2. HomeBrewを使ってgitをインストール  https://git-scm.com/download/mac
+
+1. Homebrewのインストール　　https://brew.sh/index_ja (マックの場合）
+
+2. HomeBrewを使ってgitをインストール  https://git-scm.com/download/mac
+
 -Githubのアカウント作成(Sign Up)
- https://github.com/
+
+https://github.com/
 
 
 ## 研修
