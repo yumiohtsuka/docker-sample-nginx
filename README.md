@@ -20,9 +20,14 @@ https://hub.docker.com/
 
 -Gitのインストール
 
+マック
 1. Homebrewのインストール　　https://brew.sh/index_ja (マックの場合）
 
 2. HomeBrewを使ってgitをインストール  https://git-scm.com/download/mac
+
+Windows
+
+https://gitforwindows.org/
 
 -Githubのアカウント作成(Sign Up)
 
