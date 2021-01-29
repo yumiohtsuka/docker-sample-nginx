@@ -64,7 +64,7 @@ https://github.com/osonoi/docker-sample-nginx.git
 ```
 $ git clone https://github.com/(ご自分のアカウント名)/docker-sample-nginx.git
 
-cd docker-sample-nginx
+$ cd docker-sample-nginx
 ```
 
 Dockerfile, indexを参照
@@ -79,6 +79,8 @@ $ docker build -t webserver .
 ```
 $ docker run --rm -d -p 8080:80 --name web webserver
 ```
+
+ブラウザーで　http://localhost:8080 にアクセスして動作確認
 
 動作を停止
 
@@ -100,6 +102,8 @@ $ docker build -t webserver .
 ```
 $ docker run --rm -d -p 8080:80 --name web webserver
 ```
+
+ブラウザーで　http://localhost:8080 にアクセスして動作確認
 
 変更をgithubに反映
 
