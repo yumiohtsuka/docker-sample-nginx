@@ -63,6 +63,8 @@ https://github.com/osonoi/docker-sample-nginx.git
 
 ```
 $ git clone https://github.com/(ご自分のアカウント名)/docker-sample-nginx.git
+
+cd docker-sample-nginx
 ```
 
 Dockerfile, indexを参照
