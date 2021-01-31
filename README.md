@@ -56,8 +56,7 @@ $ docker run --rm -d -p 8080:80 --name web nginx
 $ docker stop web
 ```
 ## 2.
-Githubびログイン後以下のアドレスにアクセス、レポジトリーをFork
-
+ブラウザーでGithub( https://github.com/ )にログイン後以下のアドレスにアクセス、レポジトリーをFork
 
 ```
 https://github.com/osonoi/docker-sample-nginx.git
