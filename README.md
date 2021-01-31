@@ -100,7 +100,7 @@ $ docker stop web
 ## 3.
 index.htmlをエディターで編集（おすすめはVScode) https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 
-例えば　<h2>Hello from Nginx container </h2>　を　<h2>Hello from Nginx container by osonoi</h2>
+例えば　Hello from Nginx container を　Hello from Nginx container by osonoi
 
 に変更
 
@@ -117,6 +117,10 @@ $ docker run --rm -d -p 8080:80 --name web webserver
 ```
 
 ブラウザーで　http://localhost:8080 にアクセスして動作確認
+
+このように表示されるはずです。
+
+<kbd><img src="3.png" width="400px"></kbd>
 
 変更をgithubに反映
 
