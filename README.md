@@ -98,8 +98,11 @@ $ docker run --rm -d -p 8080:80 --name web webserver
 $ docker stop web
 ```
 ## 3.
-index.htmlを編集
+index.htmlをエディターで編集（おすすめはVScode) https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 
+例えば　<h2>Hello from Nginx container </h2>　を　<h2>Hello from Nginx container by osonoi</h2>
+
+に変更
 
 イメージを作成
 
