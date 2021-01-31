@@ -90,7 +90,7 @@ $ docker run --rm -d -p 8080:80 --name web webserver
 
 このように表示されるはずです。
 
-<kbd><img src=".png" width="400px"></kbd>
+<kbd><img src="2.png" width="400px"></kbd>
 
 動作を停止
 
