@@ -62,6 +62,7 @@ Githubびログイン後以下のアドレスにアクセス、レポジトリ�
 ```
 https://github.com/osonoi/docker-sample-nginx.git
 ```
+<kbd><img src="fork.png" width="800px"></kbd>
 
 参考：　https://github.com/IBMDeveloperTokyo/DojoBasicLab/tree/master/Lab3_GitHub/Lab3-1_GitHub
 
