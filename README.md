@@ -164,7 +164,7 @@ docker run --rm -d -p 8080:80 --name web (誰かののアカウント名)/webser
 ```
 お一人でこの手順を試している場合は私のGitHub レポジトリーで以下のように試してみてください。
 ```
-docker run --rm -d -p 8080:80 --name web osonoi/webserver
+docker run --rm -d -p 8080:80 --name web yosonoi/webserver
 ```
 
 ブラウザーで　http://localhost:8080 にアクセスして動作確認
