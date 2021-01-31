@@ -122,7 +122,13 @@ $ docker run --rm -d -p 8080:80 --name web webserver
 
 <kbd><img src="3.png" width="400px"></kbd>
 
-変更をgithubに反映
+動作を停止
+
+```
+$ docker stop web
+```
+
+index.htmlの変更をgithubに反映
 
 ```
 $ git init
@@ -131,14 +137,7 @@ $ git commit -m "コメント変更"
 $ git push origin main
 ```
 
-
-動作を停止
-
-```
-$ docker stop web
-```
-
-イメージをDockerHubにアップロード
+作成したイメージをDockerHubにアップロード
 
 ```
 $ docker login
@@ -151,9 +150,27 @@ dockerHubでイメージを確認
 
 https://hub.docker.com/
 
+## 4
+
 DockerHubのイメージで起動(できれば他のメンバーのアカウントのイメージを使って）
 
 ```
 docker run --rm -d -p 8080:80 --name web (誰かののアカウント名)/webserver
+```
+お一人でこの手順を試している場合は私のGitHub レポジトリーで以下のように試してみてください。
+```
+docker run --rm -d -p 8080:80 --name web osonoi/webserver
+```
+
+ブラウザーで　http://localhost:8080 にアクセスして動作確認
+
+このように表示されるはずです。
+
+<kbd><img src="3.png" width="400px"></kbd>
+
+動作を停止
+
+```
+$ docker stop web
 ```
 
