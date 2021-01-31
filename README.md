@@ -37,7 +37,8 @@ https://github.com/
 ## 実施手順
 
 ## 1.
-以下のコマンドでウェブサーバーを起動してみる(Dockerの動作確認)
+マックだったらターミナル、WindowsであればPower Shellを起動
+以下のコマンドでウェブサーバーを起動する(Dockerの動作確認)
 
 ```
 $ docker run --rm -d -p 8080:80 --name web nginx
@@ -86,6 +87,10 @@ $ docker run --rm -d -p 8080:80 --name web webserver
 ```
 
 ブラウザーで　http://localhost:8080 にアクセスして動作確認
+
+このように表示されるはずです。
+
+<kbd><img src=".png" width="400px"></kbd>
 
 動作を停止
 
