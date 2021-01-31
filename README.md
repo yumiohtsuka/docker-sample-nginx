@@ -34,7 +34,7 @@ https://gitforwindows.org/
 https://github.com/
 
 
-## 研修手順
+## 実施手順
 
 ## 1.
 以下のコマンドでウェブサーバーを起動してみる(Dockerの動作確認)
@@ -44,6 +44,10 @@ $ docker run --rm -d -p 8080:80 --name web nginx
 ```
 
 ブラウザーで　http://localhost:8080 にアクセスして動作確認
+
+このように表示されるはずです。
+
+<kbd><img src="1.png" width="400px"></kbd>
 
 動作を停止
 
