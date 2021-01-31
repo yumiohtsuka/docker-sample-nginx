@@ -34,8 +34,9 @@ https://gitforwindows.org/
 https://github.com/
 
 
-## 研修
+## 研修手順
 
+## 1.
 以下のコマンドでウェブサーバーを起動してみる(Dockerの動作確認)
 
 ```
@@ -49,7 +50,7 @@ $ docker run --rm -d -p 8080:80 --name web nginx
 ```
 $ docker stop web
 ```
-
+## 2.
 Githubびログイン後以下のアドレスにアクセス、レポジトリーをFork
 
 
@@ -87,7 +88,7 @@ $ docker run --rm -d -p 8080:80 --name web webserver
 ```
 $ docker stop web
 ```
-
+## 3.
 index.htmlを編集
 
 
