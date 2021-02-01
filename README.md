@@ -40,6 +40,8 @@ https://github.com/
 マックだったらターミナル、WindowsであればPower Shellを起動
 以下のコマンドでウェブサーバーを起動する(Dockerの動作確認)
 
+* docker run ... から入力してください。
+
 ```
 $ docker run --rm -d -p 8080:80 --name web nginx
 ```
